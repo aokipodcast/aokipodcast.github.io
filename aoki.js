@@ -15,6 +15,10 @@ $(document).ready(function() {
         document.body.style.background = "#F9A52A";
 
     });
+
+    $(document).on("click", function(){
+        location.href = "html/episode1.html";
+    })
     
   });
   
