@@ -5,17 +5,76 @@
     <meta charset="utf‐8">
     <title> Aoki Podcast </title>
   </head>
-  <style></style>
+  <style>
+    @font-face {
+        font-family: Futura;
+        src: url(https://www.cssfontstack.com/Futura);
+      }
+      body{
+        background-color: #F9A52A;
+      }
+    h1{
+      font-family: Futura;
+      font-weight: 700;
+      height: 170px;
+      left: 0;
+      letter-spacing: 32px;
+      line-height: 170px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      white-space: nowrap;
+      width: 687px;
+      font-size: 150px;
+      color: #FBFAF8;
+      z-index: 5;
+    }
+    h1.background{
+      display: none;
+      font-family: Futura;
+      font-weight: 700;
+      height: 170px;
+      left: 0;
+      letter-spacing: 32px;
+      line-height: 170px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      margin-left: -10px;
+      white-space: nowrap;
+      width: 687px;
+      font-size: 150px;
+      color: #F3D96A;
+      z-index: 4;
+    }
+    img{
+      z-index: 10;
+      position: absolute;
+      height: 191px;
+      width: 191px;
+      left: 186px;
+      top: 90px;
+    }
+    div.title{
+      justify-content: center;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: -200px 0 0 -350px;
+    }
+  </style>
 
   <body>
-    <top-nav>
-      <a href="index.html"> Home </a>
-      <a href="html/episode1.html"> Episode 1 </a>
-      <a href="html/episode2.html"> Episode 2 </a>
-      <a href="html/episode3.html"> Episode 3 </a>
-    </top-nav>
+    <div class="title">
+      <h1 id="back" class="background">A<span style="color: #FBFAF8">O</span>KI</h1>
+      <h1 id="main">AOKI</h1>
+      <img src="images/logo.png">
+    </div>
 
   </body>
   
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="aoki.js"> </script>
-</html>
+
+  </html>
